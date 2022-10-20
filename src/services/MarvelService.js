@@ -37,6 +37,7 @@ const useMarvelService = () => {
     }
     const _transformComic = (comic) => {
         return {
+            
             id: comic.id,
             title: comic.title,
             description: comic.description,
